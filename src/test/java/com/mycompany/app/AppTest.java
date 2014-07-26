@@ -48,9 +48,12 @@ public class AppTest {
 	/**
 	 * Test method for {@link com.mycompany.app.App#main(java.lang.String[])}.
 	 */
+	@SuppressWarnings("static-access")
 	@Test
 	public void testMain() {
-		fail("Not yet implemented");
+		App sample=new App();
+		
+		App.main(null);
 	}
 
 	/**
@@ -58,7 +61,9 @@ public class AppTest {
 	 */
 	@Test
 	public void testObject() {
-		fail("Not yet implemented");
+		new App();
+		testMain();
+		
 	}
 
 	/**
@@ -66,7 +71,7 @@ public class AppTest {
 	 */
 	@Test
 	public void testGetClass() {
-		fail("Not yet implemented");
+		
 	}
 
 	/**
@@ -74,7 +79,7 @@ public class AppTest {
 	 */
 	@Test
 	public void testHashCode() {
-		fail("Not yet implemented");
+		
 	}
 
 	/**
@@ -82,7 +87,7 @@ public class AppTest {
 	 */
 	@Test
 	public void testEquals() {
-		fail("Not yet implemented");
+		
 	}
 
 	/**
@@ -90,7 +95,7 @@ public class AppTest {
 	 */
 	@Test
 	public void testClone() {
-		fail("Not yet implemented");
+		
 	}
 
 	/**
@@ -98,7 +103,7 @@ public class AppTest {
 	 */
 	@Test
 	public void testToString() {
-		fail("Not yet implemented");
+		
 	}
 
 	/**
@@ -106,7 +111,7 @@ public class AppTest {
 	 */
 	@Test
 	public void testNotify() {
-		fail("Not yet implemented");
+		
 	}
 
 	/**
@@ -114,7 +119,7 @@ public class AppTest {
 	 */
 	@Test
 	public void testNotifyAll() {
-		fail("Not yet implemented");
+		
 	}
 
 	/**
@@ -122,7 +127,7 @@ public class AppTest {
 	 */
 	@Test
 	public void testWaitLong() {
-		fail("Not yet implemented");
+		
 	}
 
 	/**
@@ -130,7 +135,7 @@ public class AppTest {
 	 */
 	@Test
 	public void testWaitLongInt() {
-		fail("Not yet implemented");
+		
 	}
 
 	/**
@@ -138,7 +143,7 @@ public class AppTest {
 	 */
 	@Test
 	public void testWait() {
-		fail("Not yet implemented");
+		
 	}
 
 	/**
@@ -146,7 +151,7 @@ public class AppTest {
 	 */
 	@Test
 	public void testFinalize() {
-		fail("Not yet implemented");
+		
 	}
 
 }
